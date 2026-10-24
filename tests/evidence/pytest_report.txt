@@ -1,0 +1,20 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.12.10, pytest-9.1.1, pluggy-1.7.0 -- C:\Users\ali.jameel\AppData\Local\Programs\Python\Python312\python.exe
+cachedir: .pytest_cache
+rootdir: C:\HackatonWorkSpace\HCMRTDPlatform
+collecting ... collected 11 items
+
+tests/test_fx_ingest.py::test_fetch_fx_rates_filters_to_requested_currencies PASSED [  9%]
+tests/test_fx_ingest.py::test_fetch_fx_rates_sends_app_id_and_base PASSED [ 18%]
+tests/test_fx_ingest.py::test_fetch_fx_rates_custom_symbols_subset PASSED [ 27%]
+tests/test_fx_ingest.py::test_fetch_fx_rates_raises_on_api_error PASSED  [ 36%]
+tests/test_fx_ingest.py::test_fetch_fx_rates_skips_missing_currency PASSED [ 45%]
+tests/test_fx_ingest.py::test_lambda_handler_writes_raw_file_with_contract PASSED [ 54%]
+tests/test_jobs_ingest.py::test_fetch_job_postings_flattens_fields PASSED [ 63%]
+tests/test_jobs_ingest.py::test_fetch_job_postings_sends_auth_headers_and_page_size PASSED [ 72%]
+tests/test_jobs_ingest.py::test_fetch_job_postings_raises_on_api_error PASSED [ 81%]
+tests/test_jobs_ingest.py::test_fetch_job_postings_empty_results PASSED  [ 90%]
+tests/test_jobs_ingest.py::test_lambda_handler_writes_raw_file_with_contract PASSED [100%]
+
+- generated xml file: C:\HackatonWorkSpace\HCMRTDPlatform\tests\evidence\junit.xml -
+============================= 11 passed in 4.85s ==============================

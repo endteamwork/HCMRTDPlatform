@@ -1,0 +1,4 @@
+boto3>=1.34
+requests>=2.31
+beautifulsoup4>=4.12
+python-tds>=1.15
